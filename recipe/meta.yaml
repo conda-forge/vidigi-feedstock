@@ -43,7 +43,7 @@ about:
   dev_url: https://github.com/hsma-tools/vidigi
   license: MIT
   license_family: MIT
-  license_file: LICENSE
+  license_file: LICENSE.md
 
 extra:
   recipe-maintainers:
