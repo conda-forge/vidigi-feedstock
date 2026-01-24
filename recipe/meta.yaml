@@ -1,6 +1,6 @@
 {% set python_min = "3.10" %}
 {% set name = "vidigi" %}
-{% set version = "1.1.1" %}
+{% set version = "1.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/vidigi-{{ version }}.tar.gz
-  sha256: 2b0e36957f37ac8e2be645321ac5363ea7a956574bc2760702e3d7960a3f9d22
+  sha256: 434a63d424dcb8f099a17cc87797c59e0fe4b14101c5c2c7664cbd85bd880cf4
 
 build:
   noarch: python
